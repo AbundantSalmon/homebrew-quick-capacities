@@ -10,7 +10,7 @@ class QuickCapacities < Formula
   end
 
   def install
-    bin.install "qc-osx-arm64" => "qc"
+    bin.install "qc"
   end
 
   test do
