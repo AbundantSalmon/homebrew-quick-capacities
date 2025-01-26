@@ -1,11 +1,11 @@
 class QuickCapacities < Formula
   desc "CLI for quickly adding information to Capacities using its API"
   homepage "https://abundantsalmon.com"
-  url "https://github.com/AbundantSalmon/QuickCapacities/releases/download/v0.0.10/qc.tar.gz"
-  sha256 "bf8e0e97e690c890acc164e5686979875576f3ad67765ce80c4b9b6e0a9527ae"
+  url "https://github.com/AbundantSalmon/QuickCapacities/releases/download/v0.0.11/qc.tar.gz"
+  sha256 "fa6f9414a37dbf04c7c4132a93d6abfefc23cd22097e9a08643b92a462a9b322"
 
   livecheck do
-    url "https://github.com/AbundantSalmon/QuickCapacities/releases/download/v0.0.10/qc.tar.gz"
+    url "https://github.com/AbundantSalmon/QuickCapacities/releases/download/v0.0.11/qc.tar.gz"
     strategy :github_latest
   end
 
